@@ -43,6 +43,11 @@
 			<artifactId>springdoc-openapi-ui</artifactId>
 			<version>${openapi.version}</version>
 		</dependency>
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-web</artifactId>
+			<version>5.3.17</version> <!-- Use a versão correspondente ao seu projeto -->
+		</dependency>
 
 		<!-- H2 Database (adicionado via Spring Initializr) -->
 		<dependency>
